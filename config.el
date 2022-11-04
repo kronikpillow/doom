@@ -180,7 +180,7 @@ List of keybindings (SPC h b b)")
 (setq delete-by-moving-to-trash t
       trash-directory "~/.local/share/Trash/files/")
 
-(setq doom-theme 'doom-one)
+(setq doom-theme 'doom-nord)
 (map! :leader
       :desc "Load new theme" "h t" #'counsel-load-theme)
 
@@ -563,7 +563,7 @@ List of keybindings (SPC h b b)")
     (set-face-attribute 'org-table nil :font doom-font :weight 'normal :height 1.0 :foreground "#bfafdf"))
 
 ;; Load our desired dt/org-colors-* theme on startup
-(dt/org-colors-doom-one)
+(dt/org-colors-nord)
 
 (use-package ox-man)
 (use-package ox-gemini)
